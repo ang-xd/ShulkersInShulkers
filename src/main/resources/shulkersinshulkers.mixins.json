@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.angxd.shulkersinshulkers.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ShulkerEntityMixin",
+    "BlockItemMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "shulkersinshulkers",
+  "version": "${version}",
+  "name": "Shulkersinshulkers",
+  "description": "Allows you to place shulker boxes inside shulker boxes",
+  "authors": [
+    "angxd"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/shulkersinshulkers/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.angxd.shulkersinshulkers.client.ShulkersinshulkersClient"
+    ]
+  },
+  "mixins": [
+    "shulkersinshulkers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
